@@ -14,20 +14,55 @@
 		19E69BAA1E44A0F100DD79FE /* Marvel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BA81E44A0F100DD79FE /* Marvel.xcdatamodeld */; };
 		19E69BAC1E44A0F100DD79FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E69BAB1E44A0F100DD79FE /* Assets.xcassets */; };
 		19E69BAF1E44A0F100DD79FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E69BAD1E44A0F100DD79FE /* LaunchScreen.storyboard */; };
+		19E69BC21E4CB59900DD79FE /* GDMarvelRKObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BC11E4CB59900DD79FE /* GDMarvelRKObjectManager.m */; };
+		19E69BDA1E4CC38E00DD79FE /* Character+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BD81E4CC38E00DD79FE /* Character+CoreDataProperties.m */; };
+		19E69BDD1E4DE02900DD79FE /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BDC1E4DE02900DD79FE /* NSString+MD5.m */; };
+		19E69BE11E51D4B700DD79FE /* GDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BE01E51D4B700DD79FE /* GDBaseViewController.m */; };
+		19E69BE41E51F78400DD79FE /* GDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BE31E51F78400DD79FE /* GDMainViewController.m */; };
+		19E69BED1E56025400DD79FE /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BE81E56025400DD79FE /* UIImage+Resize.m */; };
+		19E69BEE1E56025400DD79FE /* NSString+Marvel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BEA1E56025400DD79FE /* NSString+Marvel.m */; };
+		19E69BF21E59EDCA00DD79FE /* AllAroundPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BF11E59EDCA00DD79FE /* AllAroundPullView.m */; };
+		19E69BF51E59EDD600DD79FE /* GDCellThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BF41E59EDD600DD79FE /* GDCellThumbnailView.m */; };
+		EEA0D5E4D64E3D2D5751F2C2 /* libPods-Marvel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE65AE7F598258CCCE8D750 /* libPods-Marvel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03DF66B5C14BC1D513F2B6C7 /* Pods-Marvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvel/Pods-Marvel.debug.xcconfig"; sourceTree = "<group>"; };
 		19E69B991E44A0F100DD79FE /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E69B9D1E44A0F100DD79FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19E69B9F1E44A0F100DD79FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19E69BA01E44A0F100DD79FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19E69BA21E44A0F100DD79FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19E69BA31E44A0F100DD79FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19E69BA21E44A0F100DD79FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Marvel/ViewController.h; sourceTree = "<group>"; };
+		19E69BA31E44A0F100DD79FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Marvel/ViewController.m; sourceTree = "<group>"; };
 		19E69BA61E44A0F100DD79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19E69BA91E44A0F100DD79FE /* Marvel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marvel.xcdatamodel; sourceTree = "<group>"; };
 		19E69BAB1E44A0F100DD79FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19E69BAE1E44A0F100DD79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19E69BB01E44A0F100DD79FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E69BC01E4CB59900DD79FE /* GDMarvelRKObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMarvelRKObjectManager.h; sourceTree = "<group>"; };
+		19E69BC11E4CB59900DD79FE /* GDMarvelRKObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMarvelRKObjectManager.m; sourceTree = "<group>"; };
+		19E69BD51E4CC38E00DD79FE /* Character+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Character+CoreDataClass.h"; sourceTree = "<group>"; };
+		19E69BD61E4CC38E00DD79FE /* Character+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Character+CoreDataClass.m"; sourceTree = "<group>"; };
+		19E69BD71E4CC38E00DD79FE /* Character+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Character+CoreDataProperties.h"; sourceTree = "<group>"; };
+		19E69BD81E4CC38E00DD79FE /* Character+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Character+CoreDataProperties.m"; sourceTree = "<group>"; };
+		19E69BDB1E4DE02900DD79FE /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		19E69BDC1E4DE02900DD79FE /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		19E69BDF1E51D4B700DD79FE /* GDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBaseViewController.h; sourceTree = "<group>"; };
+		19E69BE01E51D4B700DD79FE /* GDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBaseViewController.m; sourceTree = "<group>"; };
+		19E69BE21E51F78400DD79FE /* GDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMainViewController.h; sourceTree = "<group>"; };
+		19E69BE31E51F78400DD79FE /* GDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMainViewController.m; sourceTree = "<group>"; };
+		19E69BE61E56011A00DD79FE /* Marvel-Characters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marvel-Characters-Prefix.pch"; sourceTree = "<group>"; };
+		19E69BE71E56025400DD79FE /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		19E69BE81E56025400DD79FE /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		19E69BE91E56025400DD79FE /* NSString+Marvel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Marvel.h"; sourceTree = "<group>"; };
+		19E69BEA1E56025400DD79FE /* NSString+Marvel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Marvel.m"; sourceTree = "<group>"; };
+		19E69BEB1E56025400DD79FE /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		19E69BF01E59EDC100DD79FE /* AllAroundPullView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllAroundPullView.h; sourceTree = "<group>"; };
+		19E69BF11E59EDCA00DD79FE /* AllAroundPullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAroundPullView.m; sourceTree = "<group>"; };
+		19E69BF31E59EDD000DD79FE /* GDCellThumbnailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCellThumbnailView.h; sourceTree = "<group>"; };
+		19E69BF41E59EDD600DD79FE /* GDCellThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCellThumbnailView.m; sourceTree = "<group>"; };
+		2BE65AE7F598258CCCE8D750 /* libPods-Marvel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Marvel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB92788084F3E9F8665DD7E0 /* Pods-Marvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marvel/Pods-Marvel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA0D5E4D64E3D2D5751F2C2 /* libPods-Marvel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +80,14 @@
 		19E69B901E44A0F100DD79FE = {
 			isa = PBXGroup;
 			children = (
+				19E69BEF1E59EDA200DD79FE /* Views */,
+				19E69BEC1E56025400DD79FE /* Categories */,
+				19E69BDE1E51D48D00DD79FE /* Controllers */,
+				19E69BBF1E49EB1200DD79FE /* Model */,
 				19E69B9B1E44A0F100DD79FE /* Marvel */,
 				19E69B9A1E44A0F100DD79FE /* Products */,
+				94C6CFD1CC28709A297D82F2 /* Pods */,
+				F988C692CB883ADF3D571234 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +102,12 @@
 		19E69B9B1E44A0F100DD79FE /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				19E69BDB1E4DE02900DD79FE /* NSString+MD5.h */,
+				19E69BDC1E4DE02900DD79FE /* NSString+MD5.m */,
+				19E69BC01E4CB59900DD79FE /* GDMarvelRKObjectManager.h */,
+				19E69BC11E4CB59900DD79FE /* GDMarvelRKObjectManager.m */,
 				19E69B9F1E44A0F100DD79FE /* AppDelegate.h */,
 				19E69BA01E44A0F100DD79FE /* AppDelegate.m */,
-				19E69BA21E44A0F100DD79FE /* ViewController.h */,
-				19E69BA31E44A0F100DD79FE /* ViewController.m */,
 				19E69BA51E44A0F100DD79FE /* Main.storyboard */,
 				19E69BAB1E44A0F100DD79FE /* Assets.xcassets */,
 				19E69BAD1E44A0F100DD79FE /* LaunchScreen.storyboard */,
@@ -77,9 +121,75 @@
 		19E69B9C1E44A0F100DD79FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19E69BE61E56011A00DD79FE /* Marvel-Characters-Prefix.pch */,
 				19E69B9D1E44A0F100DD79FE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19E69BBF1E49EB1200DD79FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19E69BD51E4CC38E00DD79FE /* Character+CoreDataClass.h */,
+				19E69BD61E4CC38E00DD79FE /* Character+CoreDataClass.m */,
+				19E69BD71E4CC38E00DD79FE /* Character+CoreDataProperties.h */,
+				19E69BD81E4CC38E00DD79FE /* Character+CoreDataProperties.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		19E69BDE1E51D48D00DD79FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19E69BA21E44A0F100DD79FE /* ViewController.h */,
+				19E69BA31E44A0F100DD79FE /* ViewController.m */,
+				19E69BDF1E51D4B700DD79FE /* GDBaseViewController.h */,
+				19E69BE01E51D4B700DD79FE /* GDBaseViewController.m */,
+				19E69BE21E51F78400DD79FE /* GDMainViewController.h */,
+				19E69BE31E51F78400DD79FE /* GDMainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		19E69BEC1E56025400DD79FE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				19E69BE71E56025400DD79FE /* UIImage+Resize.h */,
+				19E69BE81E56025400DD79FE /* UIImage+Resize.m */,
+				19E69BE91E56025400DD79FE /* NSString+Marvel.h */,
+				19E69BEA1E56025400DD79FE /* NSString+Marvel.m */,
+				19E69BEB1E56025400DD79FE /* Categories.h */,
+			);
+			name = Categories;
+			path = "../../Downloads/marvel-characters-master/Marvel/Categories";
+			sourceTree = "<group>";
+		};
+		19E69BEF1E59EDA200DD79FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19E69BF01E59EDC100DD79FE /* AllAroundPullView.h */,
+				19E69BF11E59EDCA00DD79FE /* AllAroundPullView.m */,
+				19E69BF31E59EDD000DD79FE /* GDCellThumbnailView.h */,
+				19E69BF41E59EDD600DD79FE /* GDCellThumbnailView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		94C6CFD1CC28709A297D82F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03DF66B5C14BC1D513F2B6C7 /* Pods-Marvel.debug.xcconfig */,
+				FB92788084F3E9F8665DD7E0 /* Pods-Marvel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F988C692CB883ADF3D571234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE65AE7F598258CCCE8D750 /* libPods-Marvel.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19E69BB31E44A0F100DD79FE /* Build configuration list for PBXNativeTarget "Marvel" */;
 			buildPhases = (
+				B6A99E23DC58385FC5C281D5 /* [CP] Check Pods Manifest.lock */,
 				19E69B951E44A0F100DD79FE /* Sources */,
 				19E69B961E44A0F100DD79FE /* Frameworks */,
 				19E69B971E44A0F100DD79FE /* Resources */,
+				047BEDA02AEDAE5BA4DD93C7 /* [CP] Embed Pods Frameworks */,
+				ED9DA0CEDA435E04763EAD8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,15 +262,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		047BEDA02AEDAE5BA4DD93C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marvel/Pods-Marvel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A99E23DC58385FC5C281D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9DA0CEDA435E04763EAD8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marvel/Pods-Marvel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19E69B951E44A0F100DD79FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E69BDA1E4CC38E00DD79FE /* Character+CoreDataProperties.m in Sources */,
 				19E69BA41E44A0F100DD79FE /* ViewController.m in Sources */,
 				19E69BA11E44A0F100DD79FE /* AppDelegate.m in Sources */,
+				19E69BE41E51F78400DD79FE /* GDMainViewController.m in Sources */,
+				19E69BF21E59EDCA00DD79FE /* AllAroundPullView.m in Sources */,
+				19E69BEE1E56025400DD79FE /* NSString+Marvel.m in Sources */,
 				19E69BAA1E44A0F100DD79FE /* Marvel.xcdatamodeld in Sources */,
 				19E69B9E1E44A0F100DD79FE /* main.m in Sources */,
+				19E69BC21E4CB59900DD79FE /* GDMarvelRKObjectManager.m in Sources */,
+				19E69BE11E51D4B700DD79FE /* GDBaseViewController.m in Sources */,
+				19E69BF51E59EDD600DD79FE /* GDCellThumbnailView.m in Sources */,
+				19E69BDD1E4DE02900DD79FE /* NSString+MD5.m in Sources */,
+				19E69BED1E56025400DD79FE /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +443,22 @@
 		};
 		19E69BB41E44A0F100DD79FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DF66B5C14BC1D513F2B6C7 /* Pods-Marvel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z48WYVF59J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marvel/Marvel-Characters-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = Marvel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aivar.vucins.Marvel;
@@ -285,9 +468,22 @@
 		};
 		19E69BB51E44A0F100DD79FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB92788084F3E9F8665DD7E0 /* Pods-Marvel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z48WYVF59J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marvel/Marvel-Characters-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = Marvel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aivar.vucins.Marvel;
@@ -314,6 +510,7 @@
 				19E69BB51E44A0F100DD79FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
