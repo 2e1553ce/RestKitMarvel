@@ -8,6 +8,6 @@
 
 #import "GDBaseViewController.h"
 
-@interface GDMainViewController : GDBaseViewController 
+@interface GDMainViewController : GDBaseViewController <UIAlertViewDelegate>
 
 @end

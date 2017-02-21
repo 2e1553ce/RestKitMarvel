@@ -7,7 +7,7 @@
 //
 
 #import "GDMainViewController.h"
-#import "Character+CoreDataProperties.h"
+#import "Character+CoreDataClass.h"
 #import "GDMarvelRKObjectManager.h"
 #import "GDCellThumbnailView.h"
 #import "AllAroundPullView.h"
@@ -83,6 +83,11 @@
                                                               {
                                                                   curCharacter.innerID = @(newInnerID);
                                                                   newInnerID++;
+                                                                  
+                                                                  //
+                                                                  //curCharacter.thumbnailPath
+                                                                  //
+                                                                  
                                                                   // Saving every character one by one (not after the loop) to prevent losing a bunch of characters if program terminates inside a loop.
                                                                   [self saveToStore];
                                                               }

@@ -7,8 +7,6 @@
 //
 
 #define MARVEL_API_PATH_PATTERN @"v1/public/"
-#define MARVEL_PRIVATE_KEY @"0b3c6789fb85fd573a2b86989a2663266bb915f5"
-#define MARVEL_PUBLIC_KEY @"24c3faed94e764a6509460481b519f89"
 
 #import "GDMarvelRKObjectManager.h"
 #import "NSString+MD5.h"
@@ -22,15 +20,21 @@
 
 @implementation GDMarvelRKObjectManager
 
+- (NSManagedObjectContext *)managedObjectContext
+{
+    return self.managedObjectStore.mainQueueManagedObjectContext;
+}
+
 - (id)init {
     
     self = [super init];
-    
-    if(self) {
-        // Инициализация AFNetworking HTTPClient
-        NSURL *baseURL = [NSURL URLWithString:@"http://gateway.marvel.com/"];
+    if (self)
+    {
+        // Initialize AFNetworking HTTPClient.
+        NSURL *baseURL = [NSURL URLWithString:MARVEL_API_BASEPOINT];
         AFHTTPClient *client = [[AFHTTPClient alloc] initWithBaseURL:baseURL];
-        //Инициализация RKObjectManager
+        
+        // Initialize RestKit's object manager.
         self.objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
     }
     
@@ -54,7 +58,7 @@
         RKLogError(@"Failed adding persistent store at path '%@': %@", path, error);
     
     [self.managedObjectStore createManagedObjectContexts];
-    //self.objectManager.managedObjectStore = self.managedObjectStore;
+    self.objectManager.managedObjectStore = self.managedObjectStore;
 }
 
 - (void)addMappingForEntityForName:(NSString *)entityName

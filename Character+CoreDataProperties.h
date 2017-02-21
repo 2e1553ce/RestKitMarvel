@@ -22,7 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, copy) NSString *name;
 @property (nullable, nonatomic, retain) NSData *thumbnailImageData;
 @property (nullable, nonatomic, copy) NSString *thumbnailURLString;
-@property NSDictionary *thumbnailDictionary;
+@property (nullable, nonatomic, copy) NSString *thumbnailPath;
+@property (nullable, nonatomic, copy) NSString *thumbnailExtension;
+
+@property (strong, nonatomic) NSDictionary *thumbnailDictionary;
 
 // Получает число всех героев из базы
 + (NSInteger)allCharsCountWithContext:(NSManagedObjectContext *)managedObjectContext;
