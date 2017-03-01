@@ -23,6 +23,8 @@
 		19E69BEE1E56025400DD79FE /* NSString+Marvel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BEA1E56025400DD79FE /* NSString+Marvel.m */; };
 		19E69BF21E59EDCA00DD79FE /* AllAroundPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BF11E59EDCA00DD79FE /* AllAroundPullView.m */; };
 		19E69BF51E59EDD600DD79FE /* GDCellThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69BF41E59EDD600DD79FE /* GDCellThumbnailView.m */; };
+		19E69BFA1E67328400DD79FE /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E69BF81E67328400DD79FE /* arrow.png */; };
+		19E69BFB1E67328400DD79FE /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E69BF91E67328400DD79FE /* arrow@2x.png */; };
 		EEA0D5E4D64E3D2D5751F2C2 /* libPods-Marvel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE65AE7F598258CCCE8D750 /* libPods-Marvel.a */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +41,8 @@
 		19E69BAB1E44A0F100DD79FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19E69BAE1E44A0F100DD79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19E69BB01E44A0F100DD79FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19E69BC01E4CB59900DD79FE /* GDMarvelRKObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMarvelRKObjectManager.h; sourceTree = "<group>"; };
-		19E69BC11E4CB59900DD79FE /* GDMarvelRKObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMarvelRKObjectManager.m; sourceTree = "<group>"; };
+		19E69BC01E4CB59900DD79FE /* GDMarvelRKObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDMarvelRKObjectManager.h; path = Marvel/GDMarvelRKObjectManager.h; sourceTree = "<group>"; };
+		19E69BC11E4CB59900DD79FE /* GDMarvelRKObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDMarvelRKObjectManager.m; path = Marvel/GDMarvelRKObjectManager.m; sourceTree = "<group>"; };
 		19E69BD51E4CC38E00DD79FE /* Character+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Character+CoreDataClass.h"; sourceTree = "<group>"; };
 		19E69BD61E4CC38E00DD79FE /* Character+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Character+CoreDataClass.m"; sourceTree = "<group>"; };
 		19E69BD71E4CC38E00DD79FE /* Character+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Character+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -61,6 +63,8 @@
 		19E69BF11E59EDCA00DD79FE /* AllAroundPullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAroundPullView.m; sourceTree = "<group>"; };
 		19E69BF31E59EDD000DD79FE /* GDCellThumbnailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCellThumbnailView.h; sourceTree = "<group>"; };
 		19E69BF41E59EDD600DD79FE /* GDCellThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCellThumbnailView.m; sourceTree = "<group>"; };
+		19E69BF81E67328400DD79FE /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		19E69BF91E67328400DD79FE /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		2BE65AE7F598258CCCE8D750 /* libPods-Marvel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Marvel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB92788084F3E9F8665DD7E0 /* Pods-Marvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marvel/Pods-Marvel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +84,8 @@
 		19E69B901E44A0F100DD79FE = {
 			isa = PBXGroup;
 			children = (
+				19E69BF71E67327100DD79FE /* Views */,
+				19E69BF61E67325E00DD79FE /* Images */,
 				19E69BEF1E59EDA200DD79FE /* Views */,
 				19E69BEC1E56025400DD79FE /* Categories */,
 				19E69BDE1E51D48D00DD79FE /* Controllers */,
@@ -104,8 +110,6 @@
 			children = (
 				19E69BDB1E4DE02900DD79FE /* NSString+MD5.h */,
 				19E69BDC1E4DE02900DD79FE /* NSString+MD5.m */,
-				19E69BC01E4CB59900DD79FE /* GDMarvelRKObjectManager.h */,
-				19E69BC11E4CB59900DD79FE /* GDMarvelRKObjectManager.m */,
 				19E69B9F1E44A0F100DD79FE /* AppDelegate.h */,
 				19E69BA01E44A0F100DD79FE /* AppDelegate.m */,
 				19E69BA51E44A0F100DD79FE /* Main.storyboard */,
@@ -130,6 +134,8 @@
 		19E69BBF1E49EB1200DD79FE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				19E69BC01E4CB59900DD79FE /* GDMarvelRKObjectManager.h */,
+				19E69BC11E4CB59900DD79FE /* GDMarvelRKObjectManager.m */,
 				19E69BD51E4CC38E00DD79FE /* Character+CoreDataClass.h */,
 				19E69BD61E4CC38E00DD79FE /* Character+CoreDataClass.m */,
 				19E69BD71E4CC38E00DD79FE /* Character+CoreDataProperties.h */,
@@ -171,6 +177,22 @@
 				19E69BF11E59EDCA00DD79FE /* AllAroundPullView.m */,
 				19E69BF31E59EDD000DD79FE /* GDCellThumbnailView.h */,
 				19E69BF41E59EDD600DD79FE /* GDCellThumbnailView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		19E69BF61E67325E00DD79FE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				19E69BF81E67328400DD79FE /* arrow.png */,
+				19E69BF91E67328400DD79FE /* arrow@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		19E69BF71E67327100DD79FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -255,8 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E69BAF1E44A0F100DD79FE /* LaunchScreen.storyboard in Resources */,
+				19E69BFB1E67328400DD79FE /* arrow@2x.png in Resources */,
 				19E69BAC1E44A0F100DD79FE /* Assets.xcassets in Resources */,
 				19E69BA71E44A0F100DD79FE /* Main.storyboard in Resources */,
+				19E69BFA1E67328400DD79FE /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

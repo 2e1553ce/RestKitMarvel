@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSFetchRequest<Character *> *)fetchRequest;
 
 @property (nullable, nonatomic, copy) NSString *charDescription;
-@property (nonatomic) int32_t charID;
-@property (nonatomic) int32_t innerID;
+@property (nonatomic) int64_t charID;
+@property (nonatomic) int64_t innerID;
 @property (nullable, nonatomic, copy) NSString *name;
 @property (nullable, nonatomic, retain) NSData *thumbnailImageData;
 @property (nullable, nonatomic, copy) NSString *thumbnailURLString;

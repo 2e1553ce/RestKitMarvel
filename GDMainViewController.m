@@ -38,6 +38,10 @@
         XLog(@"%@", [saveError localizedDescription]);
 }
 
+- (void)deleteAllCharacters {
+    
+}
+
 - (void)loadThumbnail:(GDCellThumbnailView *)view fromURLString:(NSString *)urlString forCharacter:(Character *)character
 {
     // Download thumbnail image for selected character.
@@ -81,7 +85,7 @@
                                                           {
                                                               if ([curCharacter isKindOfClass:[Character class]])
                                                               {
-                                                                  curCharacter.innerID = @(newInnerID);
+                                                                  curCharacter.innerID = newInnerID;
                                                                   newInnerID++;
                                                                   
                                                                   //
